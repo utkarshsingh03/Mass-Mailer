@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Mass Mailer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Custom Mass Mailer</h1>
+        </header>
+        <main>
+            
+          <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+                <form id="uploadForm" action="#" method="POST">
+                    <div class="mb-6 pt-4">
+                        <label class="formbold-form-label formbold-form-label-2">
+                            Upload CSV File
+                        </label>
+                        <div class="formbold-mb-5 formbold-file-input">
+                            <input type="file" name="csvFile" id="csvFile" accept=".csv" required />
+                            <label for="csvFile">
+                                <div>
+                                    <span class="formbold-drop-file">Drop CSV file here</span>
+                                    <span class="formbold-or">Or</span>
+                                    <span class="formbold-browse">Browse</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="formbold-progress-bar">
+                      <div class="formbold-progress"></div>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="formbold-btn w-full">Send CSV File</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+            <button type="submit">Send Emails</button>
+            <div id="status" class="notification">
+                <span id="statusMessage"></span>
+                <span class="close">&times;</span>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

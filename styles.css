@@ -1,0 +1,279 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #00C9FF, #92FE9D);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.7);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.notification {
+  position: relative;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: none;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #000;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  background: linear-gradient(45deg, #6a64f1, #a35af2);
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #6a64f1;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formbold-file-input input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.formbold-file-input label {
+  position: relative;
+  border: 1px dashed #e0e0e0;
+  border-radius: 6px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.formbold-drop-file {
+  display: block;
+  font-weight: 600;
+  color: #07074d;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.formbold-or {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.formbold-browse {
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  display: inline-block;
+  padding: 8px 28px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formbold-file-list {
+  border-radius: 6px;
+  background: #f5f7fb;
+  padding: 16px 32px;
+}
+
+.formbold-file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formbold-file-item button {
+  color: #07074d;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.formbold-file-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  padding-right: 12px;
+}
+
+.formbold-progress-bar {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 6px;
+  border-radius: 8px;
+  background: #e2e5ef;
+}
+
+.formbold-progress {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #6a64f1;
+  border-radius: 8px;
+}
+
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+.formbold-progress-bar {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 6px;
+  border-radius: 8px;
+  background: #e2e5ef;
+}
+
+.formbold-progress {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #6a64f1;
+  border-radius: 8px;
+  transition: width 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+
+
+
+
